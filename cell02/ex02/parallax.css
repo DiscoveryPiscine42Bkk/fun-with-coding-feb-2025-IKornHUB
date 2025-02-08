@@ -1,0 +1,43 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+}
+
+.parallax {
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    font-size: 2em;
+    font-weight: bold;
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: center;
+}
+
+.img1 {
+    background-image: url("https://www.looper.com/img/gallery/whatever-happened-to-the-sun-baby-from-teletubbies/l-intro-1684946032.jpg");
+}
+
+.img2 {
+    background-image: url("https://media.tenor.com/jXe-ICvYQDEAAAAC/black-man-screaming.gif");
+}
+
+.black-section {
+    background: black;
+    color: white;
+    padding: 50px;
+    font-size: 1.5em;
+}
+
+.text {
+    background: rgba(0, 0, 0, 0.6);
+    padding: 15px 30px;
+    border-radius: 10px;
+}
